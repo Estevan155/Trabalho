@@ -1,35 +1,32 @@
-/* estilos globais */
-
-*, *::before, *::after {
-	box-sizing:border-box;
-}
-
 body {
-	padding:0;
-	margin:0;
+    background-color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
-/* main */
-
-#formulario  {
-	height:100vh;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-#logar {
-	border:none;
-	border-radius:2em;
-	padding:.5em;
+.login {
+    background-color: darkslategray;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
 }
 
-.sessao {
-	padding:.75em;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
+.login form {
+    display: flex;
+    flex-direction: column;
 }
 
+.login input {
+    margin-top: 10px;
+}
 
+.login {
+    ;
+}
