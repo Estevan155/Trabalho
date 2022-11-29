@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-color: #181f20;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -17,7 +17,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: darkslategray;
+    background-color: #181f25;
+    border-radius: 10px;
     width: 355px;
     height: 320px;
     padding: 35px;
@@ -31,13 +32,39 @@ body {
 
 .login input {
     margin-top: 10px;
-    background-color: darkslategray;
+    background-color: #181f25;
+    padding-left: 10px;
+    color: #CBD0f7;
     border: none;
     height: 45px;
     outline: none;
+    border-radius: 8px;
 }
 
 .login img {
-    width: 60px;
+    width: 65px;
     height: auto;
+}
+
+input::placeholder {
+    color: #CBD0f7;
+    font-size: 14px;
+}
+
+form[type="submit"] {
+    display: block;
+    background-color: #5568FE;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: bold;
+}
+
+p {
+    color: #CBD0f7;
+}
+
+a {
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 10px;
 }
