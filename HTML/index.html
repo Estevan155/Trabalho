@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard-Progress Code</title>
+    <title>Dashboard Code</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
@@ -29,7 +29,7 @@
                         </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-symbols-sharp">
                         person
                         </span>
@@ -61,7 +61,6 @@
                     <h3>Products</h3>
                 </a>
                 <a href="#">
-
                     <span class="material-symbols-sharp">
                         report
                         </span>
@@ -88,29 +87,75 @@
                 </a>
             </div>
         </aside>
-    </div>
-    </div>
-    <div class="right">
-        <div class="info">
-            <h3>NEM CUSTOMERS</h3>
-            <small class="text-muted">last 24 horas</small>
-        </div>
-        <h5 class="success">+25%</h5>
-        <h3>849</h3>
-    </div>
-    </div>
-    <div class="item add-product">
-        <div>
-            <span class="material-icons-sharp">add</span>
-            <h3>add Product</h3>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <script src="../java/orders.js"></script>
-    <script src="../java/index.jss"></script>
+        <!----------END OF ASIDE---------->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
 
+            <div class=insights>
+                <div class="sales">
+                    <span class="material-symbols-sharp">Analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total sales</h3>
+                            <h1>R$25,025</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">last 24 hours</small>
+                </div>
+                <!----------END OF sales---------->
+                <div class="expenses">
+                    <span class="material-symbols-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>R$14,160</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">last 24 hours</small>
+                </div>
+                <!----------END of EXPENSES--------->
+                <div class="income">
+                    <span class="material-symbols-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total income</h3>
+                            <h1>R$10,864</h1>
+                            <div class="progress">
+                                <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                        </svg>
+                                <div class="number">
+                                    <p>44%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">last 24 hours</small>
+                    </div>
+                </div>
+            </div>
+
+            <!----------END of income--------->
+    </div>
+    </main>
 </body>
 
 </html>
